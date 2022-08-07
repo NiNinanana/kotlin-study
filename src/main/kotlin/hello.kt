@@ -4,8 +4,13 @@ val name : String by lazy{
 }
 
 fun main(){
-    var age : Int = 21
+    var age : Int = 30
     var name : String = "선우"
+
+    for(i: Int in 1..10)
+        println("$i")
+
+    val len : Int = 5
 
     val firstNum : Int = 35
     val secondNum : Int = 200
